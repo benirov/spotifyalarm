@@ -1,4 +1,4 @@
-# Spotify Alarmp
+# Spotify Alarm
 
 ![alt text](https://github.com/benirov/spotifyalarm/blob/main/images/image1.png?raw=true)
 
