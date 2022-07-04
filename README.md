@@ -1,12 +1,12 @@
 # Spotify Alarmp
 
-![alt text](https://github.com/benirov/tickects_ci4/blob/main/images/image1.png?raw=true)
+![alt text](https://github.com/benirov/spotifyalarm/blob/main/images/image1.png?raw=true)
 
-![alt text](https://github.com/benirov/tickects_ci4/blob/main/images/image2.png?raw=true)
+![alt text](https://github.com/benirov/spotifyalarm/blob/main/images/image2.png?raw=true)
 
-![alt text](https://github.com/benirov/tickects_ci4/blob/main/images/image3.png?raw=true)
+![alt text](https://github.com/benirov/spotifyalarm/blob/main/images/image3.png?raw=true)
 
-![alt text](https://github.com/benirov/tickects_ci4/blob/main/images/image4.png?raw=true)
+![alt text](https://github.com/benirov/spotifyalarm/blob/main/images/image4.png?raw=true)
 
 this project using the spotify api to play song on any device of your account sinc
 
