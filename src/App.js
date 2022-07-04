@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import AppState from './context/app/appState';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import AuthSpotify from './components/AuthSpotify';
+import Token from './components/Token';
+import ListadoPlaylist from './components/ListadoPlaylist';
+import ListadoDispositivos from './components/ListadoDispositivos';
+import Alarma from './components/Alarma';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () =>{
+
+    return (
+      <div className="container">
+          <AppState>
+            <Router>
+                <Switch>
+                  <Route exact path="/" component={Alarma} /> 
+                  <Route exact path="/autorization" component={AuthSpotify} />
+                  <Route exact path="/token" component={Token} />
+                  <Route exact path="/lista-playlist" component={ListadoPlaylist} />
+                  <Route exact path="/lista-dispositivos" component={ListadoDispositivos} />
+                </Switch>
+              </Router>
+          </AppState>
+        </div>
+     );
+
 }
 
 export default App;
